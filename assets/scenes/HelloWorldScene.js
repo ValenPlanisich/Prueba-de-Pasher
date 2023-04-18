@@ -42,8 +42,8 @@ export default class HelloWorldScene extends Phaser.Scene {
     logo.setCollideWorldBounds(true);
 
     emitter.startFollow(logo);
-  }
 
+  }
   update() {
     // update game objects
   }
